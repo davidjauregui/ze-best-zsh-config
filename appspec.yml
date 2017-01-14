@@ -2,7 +2,7 @@ version: 0.1
 os: windows
 files:
   - source: /
-  destination: C:\temp
+    destination: C:\temp
 hooks:
   BeforeInstall:
     - location: deploy/scripts/BeforeInstall.ps1
