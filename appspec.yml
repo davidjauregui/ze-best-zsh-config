@@ -1,11 +1,11 @@
 version: 0.1
 os: windows
 files:
-  - source: \
-  destination: C:\gitrepo
+  - source: /
+  destination: C:\temp
 hooks:
   BeforeInstall:
-    - location: \deploy\scripts\BeforeInstall.ps1
+    - location: deploy/scripts/BeforeInstall.ps1
       timeout: 900
   ApplicationStart:
-    - location: \deploy\scripts\ApplicationStart.ps1
+    - location: deploy/scripts/ApplicationStart.ps1
