@@ -7,5 +7,8 @@ hooks:
   BeforeInstall:
     - location: deploy/scripts/BeforeInstall.ps1
       timeout: 900
+  AfterInstall:
+    - location: deploy/scripts/AfterInstall.ps1
+      timeout: 900
   ApplicationStart:
     - location: deploy/scripts/ApplicationStart.ps1

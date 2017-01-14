@@ -1,1 +1,1 @@
-New-Item C:\git\test\git_test.txt -type file
+New-Item C:\gitrepo\git_test.txt -type file
